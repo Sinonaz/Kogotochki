@@ -1,0 +1,32 @@
+.social {
+  position: absolute;
+  bottom: 40px;
+}
+
+.social__list-item {
+  position: relative;
+  background-color: $def-gray-color;
+  max-width: 108px;
+  border-radius: 27px;
+  padding: 9px 14px 9px 42px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 13px;
+    top: 7px;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-image: url("../../img/icons/whatsapp-icon.svg");
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 22px;
+    max-width: 136px;
+
+    &::before {
+      background-image: url("../../img/icons/instagram-icon.svg");
+    }
+  }
+}

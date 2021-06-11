@@ -7,10 +7,12 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", "Arial", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.29;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.18;
   background-color: white;
   counter-reset: section;
   overflow-x: hidden;
+  display: grid;
+  grid-template-columns: min-content 1fr;
 }

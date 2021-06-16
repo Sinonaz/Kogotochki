@@ -21,68 +21,75 @@
 </head>
 
 <body class="page-body">
-  <header class="header">
-    <img class="header__logo" src="img/logos/logo.svg" width="83" height="64" alt="Логотип Коготочки">
-    <nav class="header__nav">
-      <ul class="header__nav-list list">
-        <li class="header__nav-list-item">
-          <a class="header__nav-list-link" href="#">Услуги и цены</a>
-        </li>
-        <li class="header__nav-list-item">
-          <a class="header__nav-list-link" href="#">Фото</a>
-        </li>
-        <li class="header__nav-list-item">
-          <a class="header__nav-list-link" href="#">О мастере</a>
-        </li>
-        <li class="header__nav-list-item">
-          <a class="header__nav-list-link" href="#">Отзывы</a>
-        </li>
-        <li class="header__nav-list-item">
-          <a class="header__nav-list-link" href="#">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="social">
-      <ul class="social__list list">
-        <li class="social__list-item">
-          <a class="social__list-link" href="#">Инстаграм</a>
-        </li>
-        <li class="social__list-item">
-          <a class="social__list-link" href="#">Ватсап</a>
-        </li>
-      </ul>
-    </div>
-  </header>
   <main class="main">
-    <header class="content-header">
-      <div class="content-header__wrapper">
-        <nav class="content-header__nav">
-          <ul class="content-header__list list">
-            <li class="content-header__item content-header__item--active">
-              <a class="content-header__link" href="#">Студия Kogotochki</a>
+    <aside class="aside">
+      <img class="aside__logo" src="img/logos/logo.svg" width="83" height="64" alt="Логотип Коготочки">
+      <nav class="aside__nav">
+        <ul class="aside__nav-list list">
+          <li class="aside__nav-list-item">
+            <a class="aside__nav-list-link" href="#">Услуги и цены</a>
+          </li>
+          <li class="aside__nav-list-item">
+            <a class="aside__nav-list-link" href="#">Фото</a>
+          </li>
+          <li class="aside__nav-list-item">
+            <a class="aside__nav-list-link" href="#">О мастере</a>
+          </li>
+          <li class="aside__nav-list-item">
+            <a class="aside__nav-list-link" href="#">Отзывы</a>
+          </li>
+          <li class="aside__nav-list-item">
+            <a class="aside__nav-list-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="aside__social social">
+        <a class="social__sign-up" href="#">Записаться</a>
+      </div>
+    </aside>
+    <div class="content">
+      <header class="content-header">
+        <div class="content-header__wrapper">
+          <nav class="content-header__nav">
+            <ul class="content-header__list list">
+              <li class="content-header__item content-header__item--active">
+                <a class="content-header-link" href="#">Студия Kogotochki</a>
+              </li>
+              <li class="content-header__item">
+                <a class="content-header-link" href="#">Инстаграм мастера</a>
+              </li>
+              <li class="content-header__item">
+                <a class="content-header-link" href="#">Анимешники выбирают это</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="content-header-button" href="#">Записаться</a>
+        </div>
+      </header>
+      <section class="content-description">
+        <div class="content-description__wrapper">
+          <h2 class="content-description-name heading">Маникюр с комфортом</h2>
+          <p class="content-description-text">Делать маникюр в студии стало комфортнее. У нас появились удобные
+            стулья с подушками и мы бесплатно наливаем чай и кофе.</p>
+          <a class="content-description-button" href="#">Посмотрть фото</a>
+          <ul class="slider__list list">
+            <li class="slider__list-item">
+              <button class="slider-1 slider-button slider-button--active" type="button" aria-label="Первый слайд"
+                autofocus></button>
             </li>
-            <li class="content-header__item">
-              <a class="content-header__link" href="#">Инстаграм мастера</a>
+            <li class="slider__list-item">
+              <button class="slider-2 slider-button" type="button" aria-label="Второй слайд"></button>
             </li>
-            <li class="content-header__item">
-              <a class="content-header__link" href="#">Анимешники выбирают это</a>
+            <li class="slider__list-item">
+              <button class="slider-3 slider-button" type="button" aria-label="Третий слайд"></button>
             </li>
           </ul>
-        </nav>
-        <a class="content-header__button" href="#">Записаться</a>
-      </div>
-    </header>
-    <section class="content-description">
-      <div class="content-description__wrapper">
-        <h2 class="content-description__name heading">Маникюр с комфортом</h2>
-        <p class="content-description__text">Делать маникюр в студии стало комфортнее. У нас появились удобные
-          стулья с подушками и мы бесплатно наливаем чай и кофе.</p>
-        <a class="content-description__button" href="#">Посмотрть фото</a>
-        <address class="content-description__address">
-          Санкт-Петербург, выборгское шоссе 15
-        </address>
-      </div>
-    </section>
+          <address class="content-description-address">
+            Санкт-Петербург, выборгское шоссе 15
+          </address>
+        </div>
+      </section>
+    </div>
   </main>
   <script src="js/script.js"></script>
 </body>

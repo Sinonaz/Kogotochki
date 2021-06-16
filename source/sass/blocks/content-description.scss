@@ -1,38 +1,26 @@
 .content-description {
   margin-top: 111px;
   color: $def-white-color;
-
-  &::after {
-    position: absolute;
-    content: "";
-    width: 14px;
-    height: 14px;
-    background-color: $def-white-color;
-    border-radius: 50%;
-    bottom: 30px;
-    right: 100px;
-    box-shadow: 24px 0 0 0 rgba(255, 255, 255, 0.3), 48px 0 0 0 rgba(255, 255, 255, 0.3) ;
-  }
 }
 
 .content-description__wrapper {
   padding: 0 50px 0 50px;
 }
 
-.content-description__name {
+.content-description-name {
   font-size: 50px;
   line-height: 1.18;
   font-weight: 400;
 }
 
-.content-description__text {
+.content-description-text {
   max-width: 603px;
   font-size: 18px;
   line-height: 1.35;
   font-weight: 300;
 }
 
-.content-description__button {
+.content-description-button {
   position: relative;
   color: $def-white-color;
   font-size: 18px;
@@ -51,7 +39,7 @@
   }
 }
 
-.content-description__address {
+.content-description-address {
   position: absolute;
   bottom: 30px;
   font-style: normal;

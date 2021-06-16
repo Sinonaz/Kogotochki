@@ -1,0 +1,23 @@
+.slider__list {
+  display: flex;
+  justify-content: space-between;
+  width: 56px;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+
+.slider-button {
+  width: 14px;
+  height: 14px;
+  background-color: $def-white-color;
+  opacity: 0.7;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &--active {
+    opacity: 1;
+  }
+}

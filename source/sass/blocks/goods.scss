@@ -19,6 +19,7 @@
   border: 1px solid $dark-gray-color;
   border-radius: 15px;
   padding: 5px 13px 6px 14px;
+  cursor: pointer;
 
   &--active {
     border-color: $def-yellow-color;
@@ -35,4 +36,68 @@
   font-size: 14px;
   line-height: 1;
   color: $def-white-color;
+}
+
+.goods__prices {
+  margin-top: 48px;
+}
+
+.goods__prices-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.goods__prices-item:not(:last-child) {
+  border-bottom: 1px solid $dark-gray-color;
+  margin-bottom: 40px;
+}
+
+.goods__prices-container {
+  display: flex;
+  align-items: center;
+  max-width: 663px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.goods__prices-description {
+  margin-left: 21px;
+}
+
+.goods__prices-title {
+  font-size: 20px;
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.goods__prices-text {
+  max-width: 480px;
+}
+
+.goods__prices-link {
+  border-bottom: 1px solid $dark-gray-color;
+}
+
+.price-price {
+  font-size: 30px;
+  line-height: 1.16;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.price-link {
+  position: relative;
+  font-size: 18px;
+  line-height: 1.16;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 110px;
+    height: 5px;
+    background-repeat: no-repeat;
+    background-image: url("../../img/icons/arrow-yellow.svg");
+  }
 }

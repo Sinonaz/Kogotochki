@@ -23,28 +23,30 @@
 <body class="page-body services-page">
   <main class="main">
     <aside class="aside services-aside">
-      <a href="index.html">
-        <img class="aside__logo" src="img/logos/logo.svg" width="83" height="64" alt="Логотип Коготочки">
-      </a>
-      <nav class="aside__nav">
-        <ul class="aside__nav-list list">
-          <li class="aside__nav-list-item">
-            <a class="aside__nav-list-link">Услуги и цены</a>
-          </li>
-          <li class="aside__nav-list-item">
-            <a class="aside__nav-list-link" href="#">Фото</a>
-          </li>
-          <li class="aside__nav-list-item">
-            <a class="aside__nav-list-link" href="#">О мастере</a>
-          </li>
-          <li class="aside__nav-list-item">
-            <a class="aside__nav-list-link" href="#">Отзывы</a>
-          </li>
-          <li class="aside__nav-list-item">
-            <a class="aside__nav-list-link" href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="aside-container">
+        <a href="index.html">
+          <img class="aside__logo" src="img/logos/logo.svg" width="83" height="64" alt="Логотип Коготочки">
+        </a>
+        <nav class="aside__nav">
+          <ul class="aside__nav-list list">
+            <li class="aside__nav-list-item">
+              <a class="aside__nav-list-link">Услуги и цены</a>
+            </li>
+            <li class="aside__nav-list-item">
+              <a class="aside__nav-list-link" href="#">Фото</a>
+            </li>
+            <li class="aside__nav-list-item">
+              <a class="aside__nav-list-link" href="#">О мастере</a>
+            </li>
+            <li class="aside__nav-list-item">
+              <a class="aside__nav-list-link" href="#">Отзывы</a>
+            </li>
+            <li class="aside__nav-list-item">
+              <a class="aside__nav-list-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div class="aside__social social">
         <a class="social__sign-up" href="#">Записаться</a>
       </div>
@@ -76,23 +78,83 @@
             </ul>
             <ul class="goods__prices list">
               <li class="goods__prices-item">
-                <img class="goods__prices-img" src="/source/img/good-1.png" alt="Комбинированный маникюр без покрытия">
-                <div class="goods__prices-description">
-                  <b class="goods__prices-title">Комбинированный маникюр без покрытия</b>
-                  <p class="goods__prices-text">Обработка кутикулы, коррекция длины и формы ногтя,
-                    обработка боковин ложа и уход за кожей рук</p>
-                  <a class="goods__prices-link" href="">Посмотреть фото</a>
+                <div class="goods__prices-container">
+                  <img class="goods__prices-img" src="img/good-1.png" width="144" height="144"
+                    alt="Комбинированный маникюр без покрытия">
+                  <div class="goods__prices-description">
+                    <b class="goods__prices-title">Комбинированный маникюр без покрытия</b>
+                    <p class="goods__prices-text">Обработка кутикулы, коррекция длины и формы ногтя,
+                      обработка боковин ложа и уход за кожей рук</p>
+                    <a class="goods__prices-link" href="">Посмотреть фото</a>
+                  </div>
                 </div>
-                <div class="goods__prices-price-block price">
-                  <p class="price">800 ₽</p>
+                <div class="goods__prices-price">
+                  <p class="price-price">800 ₽</p>
+                  <a class="price-link" href="#">Записаться</a>
+                </div>
+              </li>
+              <li class="goods__prices-item">
+                <div class="goods__prices-container">
+                  <img class="goods__prices-img" src="img/good-2.png" width="144" height="144"
+                    alt="Комбинированный маникюр без покрытия">
+                  <div class="goods__prices-description">
+                    <b class="goods__prices-title">Комбинированный маникюр без покрытия</b>
+                    <p class="goods__prices-text">Обработка кутикулы, коррекция длины и формы ногтя,
+                      обработка боковин ложа и уход за кожей рук</p>
+                    <a class="goods__prices-link" href="">Посмотреть фото</a>
+                  </div>
+                </div>
+                <div class="goods__prices-price">
+                  <p class="price-price">1 400 ₽</p>
+                  <a class="price-link" href="#">Записаться</a>
+                </div>
+              </li>
+              <li class="goods__prices-item">
+                <div class="goods__prices-container">
+                  <img class="goods__prices-img" src="img/good-3.png" width="144" height="144"
+                    alt="Комбинированный маникюр без покрытия">
+                  <div class="goods__prices-description">
+                    <b class="goods__prices-title">Комбинированный маникюр без покрытия</b>
+                    <p class="goods__prices-text">Обработка кутикулы, коррекция длины и формы ногтя,
+                      обработка боковин ложа и уход за кожей рук</p>
+                  </div>
+                </div>
+                <div class="goods__prices-price">
+                  <p class="price-price">300 ₽</p>
                   <a class="price-link" href="#">Записаться</a>
                 </div>
               </li>
             </ul>
           </div>
+          <b class="ansvers-title">« — А они точно не сломаются?»<br><span class="ansvers-text">отвечаю на популярные
+              вопросы</span></b>
+          <ul class="ansvers-list list">
+            <li class="ansvers-item ansvers-question">
+              <p>Как долго будет держаться мой маникюр?</p>
+            </li>
+            <li class="ansvers-item ansvers-ansver">
+              <p>Почти месяц если будут соблюдены все условия. Со своей стороны я гарантирую качество работы и
+                материалов. Кстати о них,
+                прежде чем пробовать новый бренд гель лака или базы на клиентах я проверяю его опытным путём — на
+                друзьях
+                и на себе)</p>
+              <a class="ansvers-link" href="#">Подробнее про материалы</a>
+            </li>
+            <li class="ansvers-item ansvers-question">
+              <p>Вы обрабатываете инструменты перед приходом клиентов?</p>
+            </li>
+            <li class="ansvers-item ansvers-ansver">
+              <p>Все инструменты обязательно проходят этапы очистки, а поверхности и руки обрабатываются антисептиком
+                перед и после
+                каждого ухода клиента.</p>
+              <a class="ansvers-link ansvers-link--second" href="#">Подробнее про дизинфекцию</a>
+            </li>
+          </ul>
         </div>
-      </section>
     </div>
+    </section>
+    </div>
+
   </main>
   <script src="js/script.js"></script>
 </body>

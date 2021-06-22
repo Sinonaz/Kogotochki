@@ -1,0 +1,62 @@
+.footer {
+  grid-area: footer;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.footer__wrapper {
+  padding-left: 75px;
+  padding-right: 117px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links-item:not(:last-child) {
+  font-size: 15px;
+  line-height: 1.35;
+  margin-bottom: 5px;
+}
+
+.footer__links-item:last-child {
+  font-size: 14px;
+  line-height: 1.35;
+  color: $copyright-color;
+  margin-top: 10px;
+}
+
+.footer__link {
+  border-bottom: 1px solid $dark-gray-color;
+}
+
+.footer__address-street {
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 1.35;
+  padding-left: 15px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 14px;
+    left: 0;
+    top: 2px;
+    background-repeat: no-repeat;
+    background-image: url("../../img/icons/pin.svg");
+  }
+}
+
+.footer__address-item address {
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.footer__social {
+  display: flex;
+}
+
+.footer__social-item:not(:last-child) {
+  margin-right: 11px;
+}

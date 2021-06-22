@@ -1,0 +1,38 @@
+.goods__filter {
+  display: flex;
+  max-width: 763px;
+}
+
+.goods__filter-item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.goods__filter-item:nth-child(2) {
+  position: relative;
+}
+
+.goods__filter-button {
+  font-size: 18px;
+  line-height: 1.35;
+  background-color: $def-white-color;
+  outline: none;
+  border: 1px solid $dark-gray-color;
+  border-radius: 15px;
+  padding: 5px 13px 6px 14px;
+
+  &--active {
+    border-color: $def-yellow-color;
+  }
+}
+
+.goods-new {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 40px;
+  height: 14px;
+  background-color: $def-pink-color;
+  font-size: 14px;
+  line-height: 1;
+  color: $def-white-color;
+}

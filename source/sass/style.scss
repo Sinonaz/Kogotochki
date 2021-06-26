@@ -2,6 +2,7 @@
 @import "reset.scss";
 @import "global/page.scss";
 @import "global/fonts.scss";
+@import "global/insta-link.scss";
 @import "blocks/aside.scss";
 @import "blocks/content.scss";
 @import "blocks/main.scss";
@@ -9,12 +10,13 @@
 @import "blocks/content-header.scss";
 @import "blocks/content-description.scss";
 @import "blocks/slider__list.scss";
-@import "blocks/services-page.scss";
-@import "blocks/services-aside.scss";
+@import "blocks/pages-page.scss";
+@import "blocks/pages-aside.scss";
 @import "blocks/services.scss";
-@import "blocks/services-wrapper.scss";
-@import "blocks/services-and-prices.scss";
+@import "blocks/pages-wrapper.scss";
+@import "blocks/pages-content.scss";
 @import "blocks/services-description.scss";
 @import "blocks/goods.scss";
 @import "blocks/ansvers.scss";
 @import "blocks/footer.scss";
+@import "blocks/photos.scss";

@@ -1,0 +1,24 @@
+.photos-title {
+  font-size: 55px;
+  line-height: 1.18;
+  font-weight: 400;
+}
+
+.photos-text {
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.photos-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 37px;
+  margin-bottom: 135px;
+}
+
+.photos-item {
+  display: block;
+  width: 276px;
+  height: 222px;
+  border-radius: 10px;
+}

@@ -1,6 +1,6 @@
 .main {
   display: grid;
   grid-template-columns: min-content 1fr;
-  grid-template-areas: "aside services-and-prices"
+  grid-template-areas: "aside pages-content"
   "aside footer";
 }

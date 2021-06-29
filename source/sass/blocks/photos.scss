@@ -17,8 +17,33 @@
 }
 
 .photos-item {
+  position: relative;
   display: block;
   width: 276px;
   height: 222px;
   border-radius: 10px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 52px;
+    bottom: 0;
+    left: 0;
+    background-color: $def-black-color;
+    opacity: 0.5;
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.photos-desc {
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+  color: $def-white-color;
+  z-index: 2;
 }
